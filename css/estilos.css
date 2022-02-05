@@ -42,9 +42,8 @@ font-size: small;
 #container {
     width: 70%;
     padding: 0 ;
-    text-align: left;
     border: 1px solid #DDD;
-    border-radius: 20px;
+    border-radius:20px 20px 0 0;
     margin: 0 auto;
 }
 
@@ -56,11 +55,15 @@ font-size: small;
     padding: 1em;
 }
 
+.guitarra {
+    width: 100%;
+}
+
 #footer {
     font-weight: bold;
     background-color: #333;
     color: white;
     text-align: center;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }
